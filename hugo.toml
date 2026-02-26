@@ -14,6 +14,7 @@ defaultContentLanguage = "en"
   author = "Parth Choudhary"
   github = "parth-choudhary"
   email = "parth.choudhary@gmail.com"
+  copyright = "Copyright © 2026 Parth Choudhary"
 
 [params.hero]
   enabled = true
