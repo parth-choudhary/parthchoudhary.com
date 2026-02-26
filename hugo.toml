@@ -1,12 +1,19 @@
-baseURL = 'https://parth-choudhary.github.io/'
-languageCode = 'en-us'
-title = 'Parth Choudhary'
+baseURL = "https://parth-choudhary.github.io/"
+languageCode = "en-us"
+title = "Parth Choudhary"
+theme = "etch"
+
+defaultContentLanguage = "en"
+
+[author]
+  name = "Parth Choudhary"
+  email = "parth.choudhary@gmail.com"
 
 [params]
-  description = 'Personal website where I share my thoughts and projects.'
-  author = 'Parth Choudhary'
-  github = 'parth-choudhary'
-  email = 'parth.choudhary@gmail.com'
+  description = "Personal website where I share my thoughts and projects."
+  author = "Parth Choudhary"
+  github = "parth-choudhary"
+  email = "parth.choudhary@gmail.com"
 
 [params.hero]
   enabled = true
