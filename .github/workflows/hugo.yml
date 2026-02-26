@@ -24,6 +24,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Download Etch theme
+        run: |
+          mkdir -p themes/etch
+          curl -L https://github.com/LukasJoswiak/etch/archive/refs/heads/main.tar.gz | tar -xz -C themes/etch --strip-components=1
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
