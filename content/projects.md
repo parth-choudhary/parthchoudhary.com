@@ -1,7 +1,8 @@
----
-layout: page
-title: Projects
----
++++
+title = "Projects"
+date = 2026-02-23
+draft = false
++++
 
 # My Projects
 

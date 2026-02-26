@@ -1,34 +1,33 @@
 # Parth Choudhary's Personal Website
 
-A clean, minimalist personal website built with Jekyll and hosted on GitHub Pages.
+A clean, minimalist personal website built with Hugo and the Etch theme, hosted on GitHub Pages.
 
 ## Features
 
-- **Blog**: Write posts in Markdown in the `_posts/` directory
+- **Blog**: Write posts in Markdown in the `content/posts/` directory
 - **Projects**: Showcase your projects on the projects page
-- **Clean Design**: Uses the minima theme for a minimal, readable layout
+- **Clean Design**: Uses the Etch theme for a minimal, elegant layout
 
 ## Writing Posts
 
-Create new blog posts in the `_posts/` directory with the naming convention:
-`YYYY-MM-DD-your-post-title.md`
+Create new blog posts in the `content/posts/` directory:
 
-Example frontmatter:
-```yaml
----
-layout: post
-title: "Your Post Title"
-date: 2026-02-23
-categories: blog
----
+```markdown
++++
+title = "Your Post Title"
+date = 2026-02-26
+categories = ["blog"]
+draft = false
++++
+
+Write your content here in Markdown.
 ```
 
 ## Local Development
 
-1. Install Ruby and Bundler
-2. Run `bundle install` to install dependencies
-3. Run `bundle exec jekyll serve` to start the local server
-4. Open http://localhost:4000 in your browser
+1. Install Hugo (extended version recommended)
+2. Run `hugo server` to start the local server
+3. Open http://localhost:1313 in your browser
 
 ## Deployment
 
@@ -37,10 +36,10 @@ This site is automatically deployed to GitHub Pages via GitHub Actions. Simply p
 ## Project Structure
 
 ```
-├── _posts/          # Blog posts (Markdown)
-├── _config.yml      # Jekyll configuration
-├── index.md         # Home page
-├── projects.md     # Projects page
-├── about.md        # About page
-└── Gemfile          # Ruby dependencies
+├── content/
+│   ├── posts/          # Blog posts (Markdown)
+│   ├── about.md       # About page
+│   └── projects.md    # Projects page
+├── hugo.toml          # Hugo configuration
+└── .github/workflows/ # GitHub Actions for deployment
 ```

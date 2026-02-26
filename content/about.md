@@ -1,8 +1,8 @@
----
-layout: page
-title: About
-permalink: /about/
----
++++
+title = "About"
+date = 2026-02-23
+draft = false
++++
 
 # About Me
 
@@ -14,7 +14,7 @@ I'm a developer passionate about building clean, functional applications. This w
 
 ## Get in Touch
 
-- [GitHub](https://github.com/parthchoudhary)
-- Email: parth@example.com
+- [GitHub](https://github.com/parth-choudhary)
+- Email: parth.choudhary@gmail.com
 
 Feel free to reach out or check out my work on GitHub!

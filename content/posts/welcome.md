@@ -1,0 +1,10 @@
++++
+title = "Welcome to My Blog"
+date = 2026-02-23
+categories = ["blog"]
+draft = false
++++
+
+This is my first post. Excited to share my thoughts here.
+
+Using Markdown for writing, as planned.
