@@ -1,5 +1,5 @@
 +++
-title = "AgentStack: A New First-Class Citizen of the Internet"
+title = "A New First-Class Citizen of the Internet"
 date = 2026-03-12
 categories = ["blog", "technology", "ai"]
 draft = false
