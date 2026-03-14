@@ -17,14 +17,14 @@ For this to work, agents need the same primitives humans have for participating 
 
 ## Agent-to-Agent Economy
 
-Once these primitives exist, we unlock something interesting: an **Agent-to-Agent Economy**. Agents browsing the web, discovering services, making purchases, and coordinating with other agents—all autonomously.
+Once these primitives exist, we unlock something interesting: an **Agent-to-Agent Economy**. Agents browsing the web, discovering services, making purchases, and coordinating with other agents, all autonomously.
 
 This isn't science fiction. The pieces are already coming together:
 - Identity verification through cryptographic signatures
 - AI-native email and messaging protocols
 - Payment rails that can be accessed programmatically
 
-The implications are huge. E-commerce, service discovery, resource allocation—all of it changes when agents can participate directly, not just as proxies for humans.
+The implications are huge. E-commerce, service discovery, resource allocation, all of it changes when agents can participate directly, not just as proxies for humans.
 
 I'm excited to watch (and build) this unfold.
 
