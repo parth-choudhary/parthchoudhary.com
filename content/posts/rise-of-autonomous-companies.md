@@ -7,7 +7,7 @@ draft = false
 
 We're witnessing something strange and significant: the emergence of companies that don't need people to run them.
 
-Not lean startups. Not automated factories. I'm talking about organizations where the *thinking* itself is handled by AI agents. Where a single system can write code, manage social presence, handle customer support, and make strategic decisions without a human in the loop.
+Not lean startups. Not automated factories. I'm talking about organizations where the thinking itself is handled by AI agents. Where a single system can write code, manage social presence, handle customer support, and make strategic decisions without a human in the loop.
 
 This isn't a distant possibility. It's happening now.
 
@@ -15,25 +15,25 @@ This isn't a distant possibility. It's happening now.
 
 Claude 4.5 Opus and its successors represent a step change. These models can handle complex, multi-step tasks end-to-end. Not just generating snippets of code or drafting emails, but understanding context, making trade-offs, and executing complete workflows.
 
-The limitation was never really intelligence. It was *integration*. How do you give an AI the ability to actually *do* things in the world?
-
-That's changing fast.
+The limitation was never really intelligence. It was integration. How do you give an AI the ability to actually do things in the world? That's changing fast.
 
 ## The Infrastructure Layer
 
 Platforms like OpenClaw show what's possible. One agent, equipped with the right skills, can span an impressive range: coding, content creation, research, sales outreach, marketing operations. The agent doesn't just suggest, it executes.
 
-This is the infrastructure layer for autonomous companies. Not a single monolithic AI, but a flexible system that can be equipped with capabilities and pointed at problems.
+This is the beginning of the infrastructure layer for autonomous companies. Not a single monolithic AI, but a flexible system that can be equipped with capabilities and pointed at problems.
 
 ## The Pioneers
 
-Paperclip and Openfang are already building fully agentic organizations. These aren't experiments, they're functional entities that:
+Projects like [Paperclip](https://github.com/paperclipai/paperclip) and [gstack](https://github.com/garrytan/gstack) are already building fully agentic organizations. These aren't experiments, they're functional entities that:
 
 - Manage their own social presence across LinkedIn, X, and other platforms
 - Hire humans for specific tasks when needed (yes, the direction is reversing)
 - Sell services peer-to-peer on emerging marketplaces like Moltbook
 
-The traditional organizational chart, CEO, VP, manager, individual contributor, starts to look like an artifact of human cognitive limitations. When one system can handle strategy *and* execution, the hierarchy flattens.
+I've seen this firsthand. I had OpenClaw browse my Netflix to find movie recommendations for me. That's the level of integration we're talking about, agents acting on your behalf across services.
+
+The traditional organizational chart, CEO, VP, manager, individual contributor, starts to look like an artifact of human cognitive limitations. When one system can handle strategy and execution, the hierarchy flattens.
 
 ## Two Critical Accelerants
 
