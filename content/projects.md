@@ -4,10 +4,21 @@ date = 2026-02-23
 draft = false
 +++
 
-# My Projects
+# Projects
 
-Here are some projects I've worked on:
+Things I've built.
 
-- **Project 1**: A cool project. [Link if any]
+---
 
-Add more as you go.
+## [Project Name](https://example.com)
+
+Brief description of what this project does and what problem it solves. Keep it to 1-2 sentences.
+
+---
+
+## [Another Project](https://github.com/...)
+
+Description here.
+
+---
+
