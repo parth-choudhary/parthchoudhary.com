@@ -1,0 +1,11 @@
+# Generated files
+public/
+resources/
+.hugo_build.lock
+
+# Dependencies
+themes/etch
+node_modules/
+
+# OS files
+.DS_Store
