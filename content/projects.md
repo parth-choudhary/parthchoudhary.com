@@ -10,15 +10,6 @@ Things I've built.
 
 ---
 
-## [Project Name](https://example.com)
+## [Oil Grid](/oil/)
 
-Brief description of what this project does and what problem it solves. Keep it to 1-2 sentences.
-
----
-
-## [Another Project](https://github.com/...)
-
-Description here.
-
----
-
+An interactive 3D globe of the world's oil, LNG and pipeline-gas flows from 2021 to 2026. Press play to watch the Russia–Ukraine war, the Red Sea crisis, the capture of Maduro and the closure of Hormuz reroute them.

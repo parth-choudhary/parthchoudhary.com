@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oil Grid — the world's energy arteries, 2021–2026</title>
+    <meta name="description" content="An interactive 3D globe of crude oil, refined products, LNG and pipeline gas flows — and how the Russia–Ukraine war, the Red Sea crisis, the capture of Maduro and the 2026 Iran war rewired them." />
+    <meta name="author" content="Parth Choudhary" />
+    <link rel="canonical" href="https://parthchoudhary.com/oil/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://parthchoudhary.com/oil/" />
+    <meta property="og:title" content="Oil Grid — how five years of war rewired the world's oil and gas" />
+    <meta property="og:description" content="Watch crude, fuel, LNG and pipeline gas flows reroute on a 3D globe from 2021 to 2026: Nord Stream, the Red Sea, Venezuela and the closure of Hormuz." />
+    <meta property="og:image" content="https://parthchoudhary.com/oil/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@bloomutant" />
+    <meta name="theme-color" content="#02040a" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='%23061226' stroke='%2335e0ff' stroke-width='2'/><path d='M5 18c6-6 16 4 22-4' stroke='%23ffb02e' stroke-width='3' fill='none'/></svg>" />
+    <script type="module" crossorigin src="./assets/index-BLUt580w.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DTSxpHfD.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="globe" aria-label="Interactive 3D globe of energy flows"></div>
+
+      <header id="topbar">
+        <a class="brand" href="#" aria-label="Oil Grid home">
+          <span class="logo"></span>
+          <span><strong>Oil Grid</strong><em>the world's energy arteries · 2021 → 2026</em></span>
+        </a>
+        <nav>
+          <button id="legendToggle" class="btn ghost legend-toggle" aria-expanded="false" aria-controls="legend">Legend</button>
+          <a href="#story" class="btn ghost">Read the story ↓</a>
+        </nav>
+      </header>
+
+      <section id="readouts" class="panel" aria-live="polite">
+        <div class="date-row">
+          <div id="date" class="date">Jun 2021</div>
+          <div id="phase" class="phase">Pre-war baseline</div>
+        </div>
+        <div id="indicators" class="indicators"></div>
+        <div class="foot">* sum of mapped routes · Δ vs Jun 2021</div>
+      </section>
+
+      <aside id="legend" class="panel">
+        <div class="legend-body">
+          <h4>Flows <small>(click to filter)</small></h4>
+          <div id="typeLegend" class="type-legend"></div>
+          <h4>Pipes <small>width = volume</small></h4>
+          <ul class="states">
+            <li><i class="st flowing"></i>At peak — bright, fast dots</li>
+            <li><i class="st reduced"></i>Below peak — dimmer, slower</li>
+            <li><i class="st disrupted"></i>Under attack / at risk</li>
+            <li><i class="st halted"></i>Blocked — no flow</li>
+            <li><i class="st idle"></i>Shut / never used</li>
+            <li><i class="st destroyed"></i>Destroyed (see ✕)</li>
+          </ul>
+          <details id="legendMore">
+            <summary>Places &amp; regions</summary>
+            <h4>Places</h4>
+            <ul id="nodeLegend" class="nodes"></ul>
+            <h4>Regions</h4>
+            <ul id="regionLegend" class="regions"></ul>
+          </details>
+        </div>
+      </aside>
+
+      <aside id="story-card" class="panel card" aria-live="polite"></aside>
+      <aside id="info" class="panel hidden" role="dialog" aria-label="Details"></aside>
+      <div id="tooltip" class="tooltip hidden"></div>
+
+      <footer id="controls" class="panel">
+        <div class="row">
+          <label class="scenario">
+            <span>Scenario</span>
+            <select id="scenario">
+              <option value="all">Full timeline 2021 → 2026</option>
+              <option value="russia">Russia–Ukraine war (gas & oil)</option>
+              <option value="redsea">Red Sea / Houthi crisis</option>
+              <option value="venezuela">Venezuela & the capture of Maduro</option>
+              <option value="iran">Iran war & Strait of Hormuz</option>
+            </select>
+          </label>
+          <div class="transport" role="group" aria-label="Playback">
+            <button id="prevEv" title="Previous event">⏮</button>
+            <button id="pause" title="Pause">❚❚</button>
+            <button id="play1" class="speed" data-speed="1" title="Play">▶</button>
+            <button id="play2" class="speed" data-speed="2.5" title="Fast">▶▶</button>
+            <button id="play3" class="speed" data-speed="7" title="Fastest">▶▶▶</button>
+            <button id="nextEv" title="Next event">⏭</button>
+          </div>
+          <button id="soundBtn" class="btn ghost small sound" title="Sound on/off" aria-pressed="true">🔊</button>
+          <div id="clock" class="clock">1 Jun 2021</div>
+          <div class="toggles">
+            <label><input type="checkbox" id="tLabels" checked /> Labels</label>
+            <label><input type="checkbox" id="tFlow" checked /> Flow</label>
+            <label><input type="checkbox" id="tPipes" checked /> Pipes</label>
+            <label><input type="checkbox" id="tRegions" checked /> Regions</label>
+            <button id="moreBtn" class="btn ghost small" aria-expanded="false">More…</button>
+          </div>
+        </div>
+        <div id="more" class="more hidden">
+          <label><input type="checkbox" id="tMarkers" checked /> Facilities</label>
+          <label><input type="checkbox" id="tChoke" checked /> Chokepoints</label>
+          <label><input type="checkbox" id="tCine" checked /> Event cinematics</label>
+          <label><input type="checkbox" id="tOrbit" /> Slow orbit</label>
+          <button id="resetView" class="btn ghost small">Reset view</button>
+        </div>
+        <div id="timeline" class="timeline" role="slider" aria-label="Timeline" tabindex="0"></div>
+      </footer>
+      <div id="webgl-error" class="hidden">This visualisation needs WebGL. The narrative is below ↓</div>
+    </div>
+
+    <main id="story" class="article"></main>
+    <noscript><p style="padding:24px;color:#cbd6e6">Oil Grid needs JavaScript and WebGL to draw the globe.</p></noscript>
+  </body>
+</html>
