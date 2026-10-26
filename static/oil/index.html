@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oil Grid — the world's energy arteries, 2021–2026</title>
-    <meta name="description" content="An interactive 3D globe of crude oil, refined products, LNG and pipeline gas flows — and how the Russia–Ukraine war, the Red Sea crisis, the capture of Maduro and the 2026 Iran war rewired them." />
+    <title>Oil Grid: how the world's oil and gas moved, 2021 to 2026</title>
+    <meta name="description" content="A 3D globe of the world's oil, fuel and gas flows. Press play to see how the war in Ukraine, the Red Sea attacks, the capture of Maduro and the 2026 Iran war changed where energy goes." />
     <meta name="author" content="Parth Choudhary" />
     <link rel="canonical" href="https://parthchoudhary.com/oil/" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://parthchoudhary.com/oil/" />
-    <meta property="og:title" content="Oil Grid — how five years of war rewired the world's oil and gas" />
-    <meta property="og:description" content="Watch crude, fuel, LNG and pipeline gas flows reroute on a 3D globe from 2021 to 2026: Nord Stream, the Red Sea, Venezuela and the closure of Hormuz." />
+    <meta property="og:title" content="Oil Grid: how five years of war changed the world's oil and gas" />
+    <meta property="og:description" content="Press play and watch oil, fuel and gas routes shift on a 3D globe from 2021 to 2026, through Nord Stream, the Red Sea, Venezuela and the closing of Hormuz." />
     <meta property="og:image" content="https://parthchoudhary.com/oil/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -18,8 +18,8 @@
     <meta name="twitter:creator" content="@bloomutant" />
     <meta name="theme-color" content="#02040a" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='%23061226' stroke='%2335e0ff' stroke-width='2'/><path d='M5 18c6-6 16 4 22-4' stroke='%23ffb02e' stroke-width='3' fill='none'/></svg>" />
-    <script type="module" crossorigin src="./assets/index-BLUt580w.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DTSxpHfD.css">
+    <script type="module" crossorigin src="./assets/index-DruMe9Z1.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DWGXBKgT.css">
   </head>
   <body>
     <div id="app">
@@ -28,7 +28,7 @@
       <header id="topbar">
         <a class="brand" href="#" aria-label="Oil Grid home">
           <span class="logo"></span>
-          <span><strong>Oil Grid</strong><em>the world's energy arteries · 2021 → 2026</em></span>
+          <span><strong>Oil Grid</strong><em>where the world's oil and gas goes, 2021 to 2026</em></span>
         </a>
         <nav>
           <button id="legendToggle" class="btn ghost legend-toggle" aria-expanded="false" aria-controls="legend">Legend</button>
@@ -51,11 +51,11 @@
           <div id="typeLegend" class="type-legend"></div>
           <h4>Pipes <small>width = volume</small></h4>
           <ul class="states">
-            <li><i class="st flowing"></i>At peak — bright, fast dots</li>
-            <li><i class="st reduced"></i>Below peak — dimmer, slower</li>
-            <li><i class="st disrupted"></i>Under attack / at risk</li>
-            <li><i class="st halted"></i>Blocked — no flow</li>
-            <li><i class="st idle"></i>Shut / never used</li>
+            <li><i class="st flowing"></i>At peak: bright, fast</li>
+            <li><i class="st reduced"></i>Below peak: dim, slow</li>
+            <li><i class="st disrupted"></i>Through a danger zone</li>
+            <li><i class="st halted"></i>Blocked</li>
+            <li><i class="st idle"></i>Shut or never used</li>
             <li><i class="st destroyed"></i>Destroyed (see ✕)</li>
           </ul>
           <details id="legendMore">
@@ -69,6 +69,7 @@
       </aside>
 
       <aside id="story-card" class="panel card" aria-live="polite"></aside>
+      <aside id="changes" class="panel hidden" aria-live="polite" aria-label="What changed"></aside>
       <aside id="info" class="panel hidden" role="dialog" aria-label="Details"></aside>
       <div id="tooltip" class="tooltip hidden"></div>
 

@@ -12,4 +12,4 @@ Things I've built.
 
 ## [Oil Grid](/oil/)
 
-An interactive 3D globe of the world's oil, LNG and pipeline-gas flows from 2021 to 2026. Press play to watch the Russia–Ukraine war, the Red Sea crisis, the capture of Maduro and the closure of Hormuz reroute them.
+A 3D globe of where the world's oil, fuel and gas goes, from 2021 to today. Press play to watch the war in Ukraine, the Red Sea attacks, the capture of Maduro and the closing of Hormuz change it.

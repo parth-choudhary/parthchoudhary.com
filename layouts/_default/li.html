@@ -1,0 +1,7 @@
+{{- /* Same as the theme's list item, but posts with a `link` param go straight to that page. */ -}}
+<li>
+    <a href="{{ with .Params.link }}{{ . | relURL }}{{ else }}{{ .Permalink }}{{ end }}">
+        {{ .Title }}
+        <small><time>{{ .Date | time.Format (i18n "posts.date") }}</time></small>
+    </a>
+</li>

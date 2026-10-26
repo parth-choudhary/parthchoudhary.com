@@ -29,10 +29,10 @@
     {{ if or (eq .Section "posts") (eq .Section "post") }}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
+      <link>{{ with .Params.link }}{{ . | absURL }}{{ else }}{{ .Permalink }}{{ end }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Params.email }}<author>{{.}}{{ with $.Site.Params.author }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
+      <guid>{{ with .Params.link }}{{ . | absURL }}{{ else }}{{ .Permalink }}{{ end }}</guid>
       <description>{{ .Content | html }}</description>
     </item>
     {{ end }}
