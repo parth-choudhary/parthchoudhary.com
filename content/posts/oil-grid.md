@@ -1,5 +1,5 @@
 +++
-title = "Watching five years of war reroute the world's oil and gas"
+title = "Oil"
 date = 2026-10-26
 categories = ["projects"]
 draft = false
