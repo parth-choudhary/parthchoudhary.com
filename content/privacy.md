@@ -1,14 +1,18 @@
 +++
 title = "Privacy Policy"
-date = 2026-04-06
+date = 2026-11-14
 draft = false
 +++
 
 # Privacy Policy
 
-**Last updated:** April 6, 2026
+**Last updated:** November 14, 2026
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you use our Android applications (the "App").
+**Developer:** SPL Studios
+
+This Privacy Policy is provided by SPL Studios ("SPL Studios", "we", "us", or "our"), the developer of the Android app **Grand Theft Mobile India 6** (also referred to as Grand Theft Mobile 6; package name `com.gtmobile.six`), published on Google Play under the developer name SPL Studios. SPL Studios is the entity responsible for this Privacy Policy.
+
+This Privacy Policy describes how your personal information is collected, used, and shared when you use Grand Theft Mobile India 6 (the "App").
 
 ## 1. Information We Collect
 
@@ -56,4 +60,6 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 
 ## 7. Contact Us
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at parth.choudhary@gmail.com.
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact SPL Studios at parth.choudhary@gmail.com.
+
+SPL Studios is the developer name shown on Google Play and is operated by Parth Choudhary, who maintains this website.
