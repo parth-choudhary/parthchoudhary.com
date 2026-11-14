@@ -30,7 +30,24 @@ When you use the App, we may automatically collect certain information about you
 - Usage data (e.g., features used, time spent in the app)
 - Crash reports and performance data
 
-This information is collected anonymously and is used solely to improve the performance and stability of the App.
+This information is not linked to your name or contact details and is used to improve the performance and stability of the App.
+
+### Advertising in Grand Theft Mobile India 6
+Grand Theft Mobile India 6 shows ads provided by Google AdMob. To show and measure ads, the Google Mobile Ads SDK in the game collects and shares with Google:
+- Your device's advertising ID (the Android Advertising ID)
+- Your IP address, which may be used to estimate your general location
+- Device information (e.g., model, operating system version, language)
+- Ad interaction data (e.g., which ads were shown and whether they were tapped)
+- Diagnostic and performance data related to ads
+
+Google may use the advertising ID to show personalised ads, to limit how often you see an ad, and to measure ad performance. This is why the game declares the `com.google.android.gms.permission.AD_ID` permission.
+
+Your choices:
+- In the game, open Settings, then Privacy, to change your analytics and personalised ad choices.
+- On your device, open Settings, then Google, then Ads (or Privacy, then Ads) to reset or delete your advertising ID. If you delete it, ads are no longer personalised using that ID.
+- You can read how Google uses this data at https://policies.google.com/technologies/partner-sites and manage ad personalisation at https://adssettings.google.com.
+
+Grand Theft Mobile India 6 has no in-app purchases and does not ask you to create an account.
 
 ### Permissions
 The App may request certain permissions on your device (e.g., Camera, Storage, Location) to provide core functionalities. You can enable or disable these permissions at any time through your device settings.
@@ -41,13 +58,14 @@ We use the collected information for the following purposes:
 - To provide, maintain, and improve the App
 - To troubleshoot bugs and analyze performance
 - To respond to your questions or support requests
+- In Grand Theft Mobile India 6, to show ads and measure their performance through Google AdMob
 
 ## 3. Third-Party Services
 
 The App may use third-party services that collect information used to identify you. These services may include:
 - Analytics providers (e.g., Google Analytics for Firebase)
 - Crash reporting tools (e.g., Firebase Crashlytics)
-- Advertising networks (if applicable)
+- Advertising networks: Google AdMob in Grand Theft Mobile India 6, which uses the advertising ID as described in Section 1 (Google's privacy policy: https://policies.google.com/privacy)
 
 We recommend reviewing the privacy policies of these third-party service providers to understand their data practices.
 
