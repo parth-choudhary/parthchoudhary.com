@@ -49,6 +49,15 @@ Your choices:
 
 Grand Theft Mobile India 6 has no in-app purchases and does not ask you to create an account.
 
+### Analytics in Grand Theft Mobile India 6
+Grand Theft Mobile India 6 uses PostHog, a product analytics service, to understand how the game is used and to find problems. When analytics is on, the game sends PostHog:
+- Usage events (e.g., starting a session, which features and screens are used)
+- Device information (e.g., model, operating system version, app version, language)
+- A randomly generated identifier for your installation of the game
+- Your IP address, which PostHog receives when the data is sent
+
+We do not send your name, email address, or phone number to PostHog. You can turn analytics off in the game under Settings, then Privacy. PostHog's privacy policy is at https://posthog.com/privacy.
+
 ### Permissions
 The App may request certain permissions on your device (e.g., Camera, Storage, Location) to provide core functionalities. You can enable or disable these permissions at any time through your device settings.
 
@@ -63,7 +72,7 @@ We use the collected information for the following purposes:
 ## 3. Third-Party Services
 
 The App may use third-party services that collect information used to identify you. These services may include:
-- Analytics providers (e.g., Google Analytics for Firebase)
+- Analytics providers (e.g., Google Analytics for Firebase), and PostHog in Grand Theft Mobile India 6 as described in Section 1 (PostHog's privacy policy: https://posthog.com/privacy)
 - Crash reporting tools (e.g., Firebase Crashlytics)
 - Advertising networks: Google AdMob in Grand Theft Mobile India 6, which uses the advertising ID as described in Section 1 (Google's privacy policy: https://policies.google.com/privacy)
 
