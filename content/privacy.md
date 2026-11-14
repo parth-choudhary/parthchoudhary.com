@@ -10,9 +10,14 @@ draft = false
 
 **Developer:** SPL Studios
 
-This Privacy Policy is provided by SPL Studios ("SPL Studios", "we", "us", or "our"), the developer of the Android app **Grand Theft Mobile India 6** (also referred to as Grand Theft Mobile 6; package name `com.gtmobile.six`), published on Google Play under the developer name SPL Studios. SPL Studios is the entity responsible for this Privacy Policy.
+This Privacy Policy is provided by SPL Studios ("SPL Studios", "we", "us", or "our"), the developer of the following Android apps, published on Google Play under the developer name SPL Studios:
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you use Grand Theft Mobile India 6 (the "App").
+- **Grand Theft Mobile India 6** (also referred to as Grand Theft Mobile 6; package name `com.gtmobile.six`)
+- **JustSay** (listed on Google Play as "JustSay — Speak. It writes."; package name `com.bolo.voice`)
+
+SPL Studios is the entity responsible for this Privacy Policy.
+
+This Privacy Policy describes how your personal information is collected, used, and shared when you use Grand Theft Mobile India 6 or JustSay (each, the "App").
 
 ## 1. Information We Collect
 
